@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rich Text Editor with Tiptap, Zod, React Hook Form, and Shadcn
 
-## Getting Started
+This project is a rich text editor built with Tiptap, Zod, React Hook Form, and Shadcn. It provides a powerful and customizable solution for creating and editing rich text content in web applications.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Tiptap**: A renderless and extendable rich text editor for Vue.js.
+- **Zod**: A TypeScript-first schema declaration and validation library.
+- **React Hook Form**: Performant, flexible, and extensible forms with easy-to-use validation.
+- **Shadcn**: A simple and lightweight library for managing the state of shadows in React, used for UI components.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##
+**Configuration**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Tiptap Extensions
+You can easily extend the functionality of the editor by adding or customizing Tiptap extensions. Refer to the Tiptap documentation for more information on available extensions and customization options.
 
-## Learn More
+##
+**Form Validation with Zod**
 
-To learn more about Next.js, take a look at the following resources:
+The form validation is powered by Zod. You can define custom validation schemas for your form fields by creating Zod schemas. Check out the Zod documentation for detailed usage instructions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##
+**UI Components with Shadcn**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Shadcn provides a simple and efficient way to manage the state of UI components in your React application. You can use Shadcn to manage the state of UI elements in your rich text editor, such as toolbars, menus, or dialogs. Refer to the Shadcn documentation for usage examples and API reference.
